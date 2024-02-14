@@ -51,7 +51,7 @@ const Navbar = () => {
             <a href="">Company</a>
           </li>
         </ul>
-        <button className="bg-[#00df9a] text-[#FFFFFF] w-[300px] rounded-md font-medium my-6 mx-auto py-3">
+        <button className="bg-[#06BA63] text-[#FFFFFF] w-[300px] rounded-md font-medium my-6 mx-auto py-3">
           Get Started <span classname="text-[5px]">&#8594;</span>
         </button>
         {/* <div className="flex space-x-4 mt-2">
