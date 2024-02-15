@@ -12,7 +12,7 @@ const Navbar = () => {
           <li className="p-4">
             <a href="/">About</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 text-[#F06523]">
             <a href="/">OurSolutions</a>
           </li>
           <li className="p-4">
