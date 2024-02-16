@@ -14,9 +14,9 @@ const Hero = () => {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to right, rgba(255,255,255,0), #FFFFFF 300%)",
+              "linear-gradient(to right, rgba(255,255,255,0), #FFFFFF 200%)",
             zIndex: 0,
-            width: "10%",
+            width: "40%",
           }}></div>
 
         <div className="absolute inset-0 flex flex-col justify-center max-w-[800px] pl-16">
@@ -28,7 +28,7 @@ const Hero = () => {
             accelerate industry & an open innovation platform for banks,
             fintechs & non-banks to connect and collaborate.
           </p>
-          <div className="flex items-center mt-8">
+          <div className="flex flex-row  mt-8">
             <button className="bg-[#06BA63] text-[#FFFFFF] w-[200px] rounded-md font-medium my-6 mx-auto py-3">
               Get Started <span classname="size={5}">&#8594;</span>
             </button>
