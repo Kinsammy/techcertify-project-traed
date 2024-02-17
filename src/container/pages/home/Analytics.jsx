@@ -20,9 +20,9 @@ const Analytics = () => {
         </p>
       </div>
 
-      <div className="max-w-[1240px] mx-auto mt-6 grid md:grid-cols-3 gap-8">
-        <div className="w-[377.33px]">
-          <div className="shadow-xl flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300  bg-[#7E86931A]">
+      <div className="max-w-[1240px] mx-auto my-4 grid md:grid-cols-3 gap-8">
+        <div className="w-[377.33px]  mt-8">
+          <div className="shadow-xl flex flex-col p-4 rounded-md bg-[#7E86931A]">
             <img src={Bidirection} className="w-10 " alt="/" />
             <h4 className="py-4">INVOICING DISCOUNTING</h4>
             <p>
@@ -30,7 +30,7 @@ const Analytics = () => {
               third party at a discount to access immediate cash flow.
             </p>
           </div>
-          <div className="w-full shadow-xl flex flex-col p-6 my-4 rounded-md hover:scale-105 duration-300  bg-[#7E86931A]">
+          <div className="w-full shadow-xl flex flex-col p-6 mt-8 rounded-md  bg-[#7E86931A]">
             <img src={Deal} className="w-10 " alt="/" />
             <h4 className="py-4">DEAL MANAGING</h4>
             <p>
@@ -41,7 +41,7 @@ const Analytics = () => {
           </div>
         </div>
 
-        <div className="relative w-full shadow-xl flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300">
+        <div className="relative w-full h-[500px]  shadow-xl flex flex-col p-3 my-4">
           <img
             src={Analytics_img}
             className="w-full h-full object-cover"
@@ -55,13 +55,13 @@ const Analytics = () => {
             </p>
             <img
               src={Analytics_mobile}
-              className="w-full max-w-xs mx-auto h-auto object-cover rounded ml-6"
+              className="mx-auto object-cover ml-5 mt-2 "
               alt="/"
             />
           </div>
         </div>
-        <div className="w-[377.33px]">
-          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300  bg-[#7E86931A]">
+        <div className="w-[377.33px] mt-8">
+          <div className="w-full shadow-xl flex flex-col p-4  rounded-md bg-[#7E86931A]">
             <img src={Trend} className="w-10 " alt="/" />
             <h4 className="py-4">DEAL MANAGING</h4>
             <p>
@@ -70,7 +70,7 @@ const Analytics = () => {
               performance analysis.
             </p>
           </div>
-          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300  bg-[#7E86931A]">
+          <div className="w-full shadow-xl flex flex-col p-4 mt-8 rounded-md  bg-[#7E86931A]">
             <img src={Reverse} className="w-10 " alt="/" />
             <h4 className="py-4">DEAL MANAGING</h4>
             <p>
