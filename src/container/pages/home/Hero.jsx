@@ -16,7 +16,7 @@ const Hero = () => {
           style={{
             background:
               "linear-gradient(to right, rgba(255,255,255,0), #FFFFFF 300%)",
-            zIndex: 2,
+            zIndex: 0,
             width: "100%",
           }}></div>
 
