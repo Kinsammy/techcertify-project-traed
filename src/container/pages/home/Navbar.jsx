@@ -15,11 +15,11 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <header className="relative z-10 flex items-center justify-between h-24 max-w-[1240px] mx-auto px-14 text-white">
+      <header className="relative z-10 flex items-center justify-between h-24 max-w-[1240px] mx-auto px-4 text-white">
         <a href="/" className="w-full">
           <img src={Logo} alt="Logo" />
         </a>
-        <ul className="hidden md:flex text-[16px] font-bold mt-4">
+        <ul className="hidden md:flex text-[16px] font-bold mt-4 mr-12">
           <li className="p-4">
             <a href="/">About</a>
           </li>
@@ -42,14 +42,14 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-              <div className="absolute hidden group-hover:block bg-black shadow-md py-2 rounded-lg mt-2 ">
-                <a href="#" className="block px-4 py-2">
+              <div className="absolute hidden group-hover:block bg-[#0c2027] text-center w-[300px] shadow-md py-2 rounded-lg mt-2 ">
+                <a href="#" className="block px-4 py-2 border-b border-white">
                   Sector 1
                 </a>
-                <a href="#" className="block px-4 py-2">
+                <a href="#" className="block px-4 py-2 border-b border-white">
                   Sector 2
                 </a>
-                <a href="#" className="block px-4 py-2">
+                <a href="#" className="block px-4 py-2 border-b border-white">
                   Sector 3
                 </a>
               </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
                     />
                   </svg>
                 </a>
-                <div className="absolute hidden group-hover:block bg-black shadow-md py-2 rounded-lg mt-2 w-[270px]">
+                <div className="absolute hidden group-hover:block bg-[#0c2027] shadow-md py-2 rounded-lg mt-2 w-[270px]">
                   <a
                     href="#"
                     className="block px-4 py-2  border-b border-gray-600">
