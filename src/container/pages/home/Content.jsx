@@ -50,6 +50,9 @@ const Content = () => {
           </p>
         </div>
       </div>
+      <div className="w-[500px] mx-auto text-center underline">
+        <a href="/">Get Started >>></a>
+      </div>
     </div>
   );
 };
