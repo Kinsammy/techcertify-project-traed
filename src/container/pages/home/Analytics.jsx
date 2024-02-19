@@ -10,7 +10,7 @@ const Analytics = () => {
   return (
     <div className="w-full px-4 py-16 text-white">
       <div className="py-8 mx-auto max-w-[800px] text-center ">
-        <h2 className="w-[500px] text-4xl mx-auto">
+        <h2 className="w-[700px] text-5xl mx-auto">
           Traed helps your business save time every day!
         </h2>
         <p className="text-1xl mt-5 h-3">
