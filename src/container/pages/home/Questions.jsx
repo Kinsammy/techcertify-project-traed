@@ -21,26 +21,36 @@ const Questions = () => {
           </p>
         </div>
         <div>
-          <div></div>
-          <span
-            onClick={toggleDropdown}
-            className="cursor-pointer text-2xl"
-            role="img"
-            aria-label="Add">
-            <AiOutlinePlus />
-          </span>
+          <div className="flex justify-between border rounded-md p-4 my-8">
+            <input
+              type="text"
+              value="How traed helps with invoice for selling goods or services overseas?"
+              readOnly
+              className="flex-grow bg-transparent focus:outline-none border-1-white"
+            />
+            <span
+              onClick={toggleDropdown}
+              className="cursor-pointer text-2xl"
+              role="img"
+              aria-label="Add">
+              <AiOutlinePlus />
+            </span>
+          </div>
 
-          <span
-            onClick={toggleDropdown}
-            className={`cursor-pointer text-2xl ${
-              dropdownOpen ? "block" : "hidden"
-            }`}
-            role="img"
-            aria-label="Add">
-            <AiOutlineClose />
-          </span>
+          <div>
+            <span
+              onClick={toggleDropdown}
+              className={`cursor-pointer text-2xl ${
+                dropdownOpen ? "block" : "hidden"
+              }`}
+              role="img"
+              aria-label="Add">
+              <AiOutlineClose />
+            </span>
+          </div>
+
           {dropdownOpen && (
-            <div className="mt-4">
+            <div className="mt-4 border">
               <p>How you can convert your invoices into cash?</p>
               <ul className="list-disc pl-4">
                 <li>Register with Traed.ai</li>
