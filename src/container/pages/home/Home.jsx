@@ -10,6 +10,7 @@ import Management from "./Management";
 import Testimonials from "./Testimonials";
 import Explore from "./Explore";
 import Questions from "./Questions";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Testimonials />
       <Explore />
       <Questions />
+      <Footer />
     </div>
   );
 };
