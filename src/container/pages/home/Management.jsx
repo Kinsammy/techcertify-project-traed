@@ -13,20 +13,21 @@ const Management = () => {
           <h2 className="w-[500px] md:text-4xl sm:text-3xl text-2xl font-bold py-6">
             Why choosing traed for trade managements?
           </h2>
-          <p className="mb-6">
-            Sell your claims to traed and get your money immediately
+          <p className="mb-6 pr-6">
+            Create invoices, quotes & co. automatically with your new digital
+            accounting software.
           </p>
           <div className="flex gap-10 mb-4">
             <img src={SeventhBullet} alt="/" />
-            <p className="mt-2">Fast financing solutions </p>
+            <p className="mt-2">Save valuable time</p>
           </div>
           <div className="flex gap-10 mb-4">
             <img src={EightBullet} alt="/" />
-            <p className="mt-2">Fast financing solutions </p>
+            <p className="mt-2">Keep the overview </p>
           </div>
           <div className="flex gap-10">
             <img src={NinethBullet} alt="/" />
-            <p className="mt-2">Fast financing solutions </p>
+            <p className="mt-2">Work flexibly in the cloud </p>
           </div>
         </div>
       </div>
