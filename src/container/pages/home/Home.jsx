@@ -8,6 +8,8 @@ import Solution from "./Solution";
 import Platform from "./Platform";
 import Management from "./Management";
 import Testimonials from "./Testimonials";
+import Explore from "./Explore";
+import Questions from "./Questions";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <Platform />
       <Management />
       <Testimonials />
+      <Explore />
+      <Questions />
     </div>
   );
 };
