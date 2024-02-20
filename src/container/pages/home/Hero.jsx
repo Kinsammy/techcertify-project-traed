@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="relatve text-[#0C2027]">
       <div
-        className="relative overflow-hidden bg-cover  bg-no-repeat p-12 text-center"
+        className="relative overflow-hidden bg-cover  bg-no-repeat p-12 text-center "
         style={{
           backgroundImage: `url(${HeroImg})`,
           height: "700px",
