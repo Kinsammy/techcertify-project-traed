@@ -21,12 +21,12 @@ const Platform = () => {
             <img src={FifthBullet} alt="/" />
             <p className="mt-2">Fast financing solutions </p>
           </div>
-          <div className="flex gap-10">
+          <div className="flex gap-10 ">
             <img src={SixthBullet} alt="/" />
             <p className="mt-2">Fast financing solutions </p>
           </div>
         </div>
-        <img className="w-[400px] ml-14 pl-8" src={PlatformImg} alt="/" />
+        <img className="w-[400px] mx-auto" src={PlatformImg} alt="/" />
       </div>
     </div>
   );

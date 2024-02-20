@@ -8,7 +8,7 @@ const Solution = () => {
   return (
     <div className="w-full text-white px-4 py-12">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img className="w-[400px] ml-16" src={SolutionImg} alt="/" />
+        <img className="w-[400px] " src={SolutionImg} alt="/" />
         <div className="flex flex-col justify-center md:mx-auto sm:mx-auto">
           <h2 className="w-[500px] md:text-4xl sm:text-3xl text-2xl font-bold py-6">
             Sell invoices with traed’s solutions

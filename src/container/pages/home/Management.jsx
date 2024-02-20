@@ -8,10 +8,10 @@ const Management = () => {
   return (
     <div className="w-full text-white px-4 py-16">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img className="w-[400px]  my-12" src={ManagementImg} alt="/" />
-        <div className="flex flex-col justify-center md:mx-auto sm:mx-auto">
+        <img className="w-[400px]  mx-16 my-auto" src={ManagementImg} alt="/" />
+        <div className="flex flex-col justify-center md:mx-auto sm:mx-auto p-8">
           <h2 className="w-[500px] md:text-4xl sm:text-3xl text-2xl font-bold py-6">
-            Sell invoices with traed’s solutions
+            Why choosing traed for trade managements?
           </h2>
           <p className="mb-6">
             Sell your claims to traed and get your money immediately
